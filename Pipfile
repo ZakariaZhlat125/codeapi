@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pyyaml = "==5.3.1"
+uritemplate = "==3.0.1"
+drf-yasg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
